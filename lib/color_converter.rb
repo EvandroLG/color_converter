@@ -13,4 +13,12 @@ module ColorConverter
       b: result[3].to_i(16)
     }
   end
+
+  def self.rgb_to_hex rgb
+    r = rgb[:r]
+    g = rgb[:g]
+    b = rgb[:b]
+
+    "##{r.to_s(16)}#{g.to_s 16}#{b.to_s 16}".upcase
+  end
 end
