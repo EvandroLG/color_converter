@@ -2,7 +2,9 @@
 `color_converter` is a Ruby module that help you to convert RGB/hexadecimal color models.
 
 ## Installation
-`gem install color_converter`
+```shell
+gem install color_converter
+```
 
 ## Methods
 * ColorConverter.hex_to_rgb <code>String</code>: <code>Hash</code>
