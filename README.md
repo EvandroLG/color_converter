@@ -1,5 +1,5 @@
-# ColorConverter
-ColorConverter is a basic Ruby module that help you to convert RGB/hexadecimal color models.
+# color_converter
+`color_converter` is a Ruby module that help you to convert RGB/hexadecimal color models.
 
 ## Installation
 `gem install color_converter`
