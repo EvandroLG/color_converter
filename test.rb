@@ -20,6 +20,10 @@ class ColorTest < Test::Unit::TestCase
     verify_hex_to_rgb '#FFFFFF'
   end
 
+  test 'convert from hexadecimal to rgb when receive string with 3 characters' do
+    verify_hex_to_rgb '#FFF'
+  end
+
   test 'convert from rgb to hexadecimal' do
     result = ColorConverter.rgb_to_hex({ r: 255, g: 255, b: 255 })
     assert_equal '#FFFFFF', result
